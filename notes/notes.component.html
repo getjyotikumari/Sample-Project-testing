@@ -1,0 +1,8 @@
+<input type="text" #newNoteText />
+<button (click)="this.addNote(newNoteText.value)" >Save</button>
+<ul *ngFor = "let note of notes" >
+  <li (click)="this.note.completed=!this.note.completed"
+    [class.completed]="this.note.completed === true">
+    {{note.text}}
+  </li>
+</ul>
