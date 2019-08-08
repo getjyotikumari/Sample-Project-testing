@@ -1,0 +1,39 @@
+
+
+.logo{
+	height: 50px;
+	width: auto;
+	float: left;
+}
+.example{
+	margin-top: 50px;
+}
+
+.r-nav{
+    margin-left: 180px;
+}
+.r-nav{
+	display: inline-block;
+	list-style: none;
+	color:  #fff;
+}
+
+.only{
+	margin-top: 50px;
+	margin-bottom: 20px;
+	margin-left: 5px;
+}
+
+.see{
+	color: blue;
+}
+.search{
+	margin-top: 180px;
+}
+.myimage{
+	width: 100px;
+	height: 50px;
+}
+
+
+
